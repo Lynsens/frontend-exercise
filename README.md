@@ -1,3 +1,25 @@
+# Fetch 
+
+## About this project
+
+This project is instructed by Fethc's frontend exercise (https://fetch-hiring.s3.amazonaws.com/frontend.html)
+
+## Features
+
+- **Validation**
+    - the form will only submit when all fields are filled and when all fields passed the validation 
+    - `name` field takes the format of 'xxx xxx'
+    - `password` field requires at least 8 characters long and includes at least one uppercase letter, one lowercase letter, and one number
+    - `email` field takes the format of 'xxxx@xxx.xxx'
+- **Submittion**
+    - when Post request successful, a message will pop up
+    - when Post request failed, an alert will pop with the error message
+- **Accessbility**
+    - each input field is associated with a label using the `htmlFor` attribute. The `aria-describedby` attribute is used to associate a description with each input field. This ensures that users who rely on screen readers or other assistive technologies can easily navigate and understand the form.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
